@@ -1,12 +1,12 @@
 
 import './App.css';
-import Date from './core/components/Date/Date';
+import Date from './Modules/Intelligence/components/Date/Date';
 
 
 
 import Header from './core/components/Header/Header';
 import LandingPage from './core/components/LandingPage/LandingPage';
-import PieChart from './core/components/PieChart/PieChart';
+import PieChart from './Modules/Intelligence/components/PieChart/PieChart';
 import SelectSmall from './core/components/Support/Support';
 
 
