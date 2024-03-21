@@ -1,0 +1,24 @@
+.full{
+    display: flex;
+  width:100%;
+  overflow-x: hidden;
+
+}
+.middle{
+   margin-left: 200px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height:330px; 
+    width: 500px;
+    overflow: hidden;
+}
+.top{
+    display: flex;
+    margin-top: 15px;
+    align-items: center; /* Align items vertically */
+}
+.datepicker {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    gap: 7px; /* Adjust the gap between buttons */
+  }
+  

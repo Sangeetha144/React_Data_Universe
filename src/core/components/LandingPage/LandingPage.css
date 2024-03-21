@@ -1,58 +1,67 @@
 
 .icon {
-    position: absolute;
-    width: 110px;
-    height: 146px;
-    background-size:cover;
-    transition: background-image 0.8s ease-in-out, transform 0.3s ease-in-out;
-  }
-  .icon:hover {
-    transform: scale(1.1); /* Adjust the scale factor as needed */
-  }
-  
-  #intelligence {
-    background-image: url('/public/assets/landingimages/Group\ 523.png');
-    top: 240px; /* Adjust as needed */
-    left: 412px; /* Adjust as needed */
-  }
-  
-  #intelligence:hover {
-    background-image: url('/public/assets/landingimages/Group\ 529.png');
-  }
-  
-  #analytics {
-    background-image: url('/public/assets/landingimages/Group\ 245.png');
-    top: 375px; /* Adjust as needed */
-    right: 801px; /* Adjust as needed */
-  }
-  
-  #analytics:hover {
-    background-image: url('/public/assets/landingimages/Group\ 522.png');
-  }
-  
-  #fabric {
-    background-image: url('/public/assets/landingimages/Group\ 525.png');
-    bottom: 208px; /* Adjust as needed */
-    left: 740px; /* Adjust as needed */
-  }
-  
-  #fabric:hover {
-    background-image: url('/public/assets/landingimages/Group\ 526.png');
-  }
-  
-  #observability {
-    background-image: url('/public/assets/landingimages/Group\ 527.png');
-    bottom: 80px; /* Adjust as needed */
-    right: 365px; /* Adjust as needed */
-  }
-  
-  #observability:hover {
-    background-image: url('/public/assets/landingimages/Group\ 530.png');
-  }
-.animation{
- margin-top: 35px;
+  position: absolute;
+  width: 110px;
+  height: 146px;
+  background-size: cover;
+  transition: background-image 0.8s ease-in-out, transform 0.3s ease-in-out;
+  z-index: 1; /* Ensure icons appear above the support component */
 }
-.support{
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+#intelligence {
+  background-image: url('/public/assets/landingimages/Group 523.png');
+  top: -15px;
+  left: 412px;
+}
+
+#intelligence:hover {
+  background-image: url('/public/assets/landingimages/Group 529.png') !important;
+}
+
+#analytics {
+  background-image: url('/public/assets/landingimages/Group 245.png');
+  top: 125px;
+  right: 801px;
+}
+
+#analytics:hover {
+  background-image: url('/public/assets/landingimages/Group 522.png') !important;
+}
+
+#fabric {
+  background-image: url('/public/assets/landingimages/Group 525.png');
+  bottom: 215px;
+  left: 750px;
+}
+
+#fabric:hover {
+  background-image: url('/public/assets/landingimages/Group 526.png') !important;
+}
+
+#observability {
+  background-image: url('/public/assets/landingimages/Group 527.png');
+  bottom: 80px;
+  right: 365px;
+}
+
+#observability:hover {
+  background-image: url('/public/assets/landingimages/Group 530.png') !important;
+}
+
+.animation {
+  margin-top: 35px;
   position: relative;
-  top:-310px;
+  z-index: 2; /* Ensure icons appear above the support component */
+}
+
+.support {
+  position: absolute;
+  z-index: 3; /* Ensure support component appears above the icons */
+  bottom: 16px;
+  right: 16px;
+  cursor: pointer; /* Ensure the support component is clickable */
 }
